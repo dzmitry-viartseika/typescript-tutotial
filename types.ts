@@ -51,3 +51,6 @@ const id1: ID = 1234;
 const id2: ID = '1234';
 
 type SomeType = string | null | undefined;
+
+type J = 1 | 2 | 3;
+type test = 'a' | true | 44;

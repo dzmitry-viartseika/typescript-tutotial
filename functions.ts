@@ -35,3 +35,14 @@ function position(a?: number, b?: number) {
 console.log('empty', position());
 console.log('one param', position(42));
 console.log('two params', position(43, 43));
+
+// сигнатура
+
+let txt: (x: number, y: number) => number;
+txt = function (x: number, y: number): number {
+    return x + y;
+}
+
+// если нету в функциях return, то указывается void
+
+
