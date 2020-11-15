@@ -1,3 +1,5 @@
+// используется чтобы не дублировать один и тот же код DRY
+
 let str: string = 'Dmitry';
 
 let isFetch: boolean = true;
