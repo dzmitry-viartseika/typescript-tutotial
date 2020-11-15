@@ -53,6 +53,7 @@ const cat = new Cat();
 cat.setVoice('test');
 
 // абстрактные классы для того чтобы можно было наследоваться
+// базовые классы от которых наследуются другие. Используется для создания наследников
 
 abstract class Component {
     abstract render(): void

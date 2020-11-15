@@ -3,6 +3,7 @@
 // readonly - только чтение
 //  название интерфейсов начинается с IName
 // implements для применения интерфейса к классу
+// наобъектная сущность
 
 interface Rect {
     readonly id: string
@@ -68,3 +69,19 @@ const css: Styles = {
     marginTop: '2px',
     borderRadius: '5px',
 }
+
+// если мы незнаем будем ли расширяться object
+
+interface User {
+    name: string,
+    age: number,
+    [propName: string]: any; // расширение
+}
+
+const Dmitry: User = {
+    name: 'Dmitry',
+    age: 30,
+    nickName: 'Wertey'
+}
+
+console.log('Dmitry', Dmitry)
