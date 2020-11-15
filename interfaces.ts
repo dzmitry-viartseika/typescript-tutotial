@@ -84,4 +84,11 @@ const Dmitry: User = {
     nickName: 'Wertey'
 }
 
-console.log('Dmitry', Dmitry)
+console.log('Dmitry', Dmitry);
+
+class Test implements User {
+    name: 'Admin'
+    age: 100
+    nickName: 'Admin'
+    salary: 100000
+}
