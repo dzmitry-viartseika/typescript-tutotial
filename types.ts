@@ -6,6 +6,8 @@ let isLoading: boolean = false;
 const int: number = 42;
 
 const arr: number[] = [12,3,3,23];
+const arr3: [number, string] = [1, ''] // кортеж указываем тип данных ячейки массива
+const arr4: [number, string?] = [1] // кортеж
 const arr2: Array<number> = [1,23,4,5]; // generic type
 const words: string[] = ['Hello', 'World'];
 
@@ -16,6 +18,12 @@ const test: (string | number | boolean)[] = [1234, 'qeqweq', true];
 
 let variable: any = 42;
 variable = 'Dmitry';
+
+
+const str2: any = 'Hello';
+const strLenght: number = (<string>str2).length;
+
+console.log('strLenght', strLenght);
 
 
 function saveMyName(name: string): void {

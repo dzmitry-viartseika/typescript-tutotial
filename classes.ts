@@ -68,3 +68,22 @@ class AppComponent extends Component {
         console.log('This is info')
     }
 }
+
+
+type MyArray<T> = T[];
+const arr: MyArray<string> = ['wertey', 'heoo'];
+
+function echo<T> (x: T): T {
+    return x;
+};
+
+// arrow function
+
+const echoF = <T>(x: T): T => {
+    return x;
+}
+
+const result: string = echo('Helllo world');
+
+
+

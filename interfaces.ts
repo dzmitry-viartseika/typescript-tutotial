@@ -2,6 +2,7 @@
 // ? - не обязательно добавлять
 // readonly - только чтение
 //  название интерфейсов начинается с IName
+// implements для применения интерфейса к классу
 
 interface Rect {
     readonly id: string

@@ -17,3 +17,9 @@ type User = {
 
 type UserKeysNoMeta1 = Exclude<keyof User, '_id' | 'createdAt'> // name email остальные поля исключены
 type UserKeysNoMeta2 = Pick<User, 'name' | 'email'> // забирает поля мейл и нейм
+
+
+// ?? если null or undefined
+
+let a: number | undefined | null;
+let b: number = a ?? 100
