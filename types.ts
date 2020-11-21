@@ -64,3 +64,30 @@ type SomeType = string | null | undefined;
 
 type J = 1 | 2 | 3;
 type test = 'a' | true | 44;
+
+// можно или это или это или оба (&&)
+
+type Dog = {
+    name: string,
+    barks: boolean,
+    wags: boolean
+}
+
+// type CatAndDog = Cat & Dog;
+// type CatOrDogOrBorth = Cat | Dog;
+//
+//
+// const bb: CatOrDogOrBorth = {
+//     name: 'Wertey',
+//     barks: true,
+//     purrs: true,
+//     wags: true
+// };
+//
+// console.log('bb', bb);
+
+ //Кортежи являются подтипами array. Они позволяют типизировать массивы фиксированной длины, в которых значения каждого индекса имеют конкретные известные типы.
+
+let b: [string, string, number] = ['malcolm', 'gladwell', 1963]
+
+let as: readonly number[] = [1, 2, 3]

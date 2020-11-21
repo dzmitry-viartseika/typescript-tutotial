@@ -46,3 +46,20 @@ txt = function (x: number, y: number): number {
 // если нету в функциях return, то указывается void
 
 
+// Именованная функция
+function greet(name: string) {
+    return 'hello ' + name
+}
+// Функциональное выражение
+let greet2 = function(name: string) {
+    return 'hello ' + name
+}
+// Выражение стрелочной функции
+let greet3 = (name: string) => {
+    return 'hello ' + name
+}
+// Сокращенное выражение стрелочной функции
+let greet4 = (name: string) =>
+    'hello ' + name
+// Конструктор функции
+let greet5 = new Function('name', 'return "hello " + name')

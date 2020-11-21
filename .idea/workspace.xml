@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1caf0ab-ac15-435c-8ec0-76b0778a5cee" name="Default Changelist" comment="operators">
-      <change afterPath="$PROJECT_DIR$/decorators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +63,8 @@
       <updated>1605363989386</updated>
       <workItem from="1605363990602" duration="9200000" />
       <workItem from="1605387064471" duration="2895000" />
+      <workItem from="1605939519404" duration="1280000" />
+      <workItem from="1605945490791" duration="4314000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1605387092565</created>
@@ -103,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605439712581</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="operators">
+      <created>1605439957277</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605439957277</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +127,7 @@
         <option value="$PROJECT_DIR$/types.js" />
         <option value="$PROJECT_DIR$/namespace.js" />
         <option value="$PROJECT_DIR$/interfaces.js" />
+        <option value="$PROJECT_DIR$/test.js" />
       </list>
     </option>
   </component>
@@ -144,17 +157,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605382217444" />
-    <state x="350" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605439718158">
+    <state x="350" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605463955348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="350" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605439718158" />
-    <state x="478" y="11" width="579" height="801" key="find.popup" timestamp="1605430436956">
+    <state x="350" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605463955348" />
+    <state x="478" y="11" width="579" height="801" key="find.popup" timestamp="1605951564419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="11" width="579" height="801" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605430436956" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605379109651">
+    <state x="478" y="11" width="579" height="801" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605951564419" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605947733969">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605379109651" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605947733969" />
   </component>
 </project>
